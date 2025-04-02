@@ -29,7 +29,7 @@
 
 2. **Berechtigungen**
    - `zrtp.use` für Basis-Befehl
-   - `zrtp.reload` für Reload-Befeh
+   - `zrtp.reload` für Reload-Befehl
 
 ---
 
