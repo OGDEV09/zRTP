@@ -50,36 +50,32 @@ menu:
       name: "&aᴏᴠᴇʀᴡᴏʀʟᴅ"
       lore:
         - ""
-        - "&fᴄʟɪᴄᴋ ᴛᴏ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴛʜᴇ &2ᴏᴠᴇʀᴡᴏʀʟᴅ"
+        - "&fᴄʟɪᴄᴋ ᴛᴏ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ "
         - ""
-      slot: 11
     nether:
       material: NETHERRACK
       name: "&4ɴᴇᴛʜᴇʀ"
       lore:
         - ""
-        - "&fᴄʟɪᴄᴋ ᴛᴏ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴛʜᴇ &4ɴᴇᴛʜᴇʀ"
+        - "&fᴄʟɪᴄᴋ ᴛᴏ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
         - ""
-      slot: 13
     end:
       material: END_STONE
       name: "&eᴇɴᴅ"
       lore:
         - ""
-        - "&f&lᴄʟɪᴄᴋ ᴛᴏ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴛʜᴇ &e&lᴇɴᴅ"
+        - "&f&lᴄʟɪᴄᴋ ᴛᴏ ʀᴀɴᴅᴏᴍ ᴛᴇʟᴇᴘᴏʀᴛ"
         - ""
-      slot: 15
 
-# BetterRTP Commands (MUSS installiert sein!)
 commands:
-  overworld: "betterrtp world {world}"
-  nether: "betterrtp world {world}_nether"
-  end: "betterrtp world {world}_the_end"
+  overworld: "betterrtp world world"
+  nether: "betterrtp world world_nether"
+  end: "betterrtp world world_the_end"
 
 countdown:
-  duration: 5 # Sekunden
+  duration: 5
   messages:
-    - "&aTeleport in &e%time% &aSekunden... &cNicht bewegen!"
-  cancelled: "&cTeleport abgebrochen, weil du dich bewegt hast!"
-  no-permission: "&cDu hast keine Berechtigung!"
-  players-only: "&cNur Spieler können dies nutzen!"
+    - "&7Teleporting in %time% &7seconds... &cDon't move!"
+  cancelled: "&cTeleport cancelled because you moved!"
+  no-permission: "&cYou don't have permission!"
+  players-only: "&cOnly players can use this command!"
